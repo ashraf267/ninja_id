@@ -16,6 +16,18 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
           backgroundColor: Colors.grey[850],
         ),
+        body: Container(
+          child: Column(
+            children: [
+              Center(
+                child: CircleAvatar(
+                  backgroundImage: AssetImage('images/ryu.png'),
+                  radius: 65.0,
+                ),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }
