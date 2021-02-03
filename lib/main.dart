@@ -40,8 +40,21 @@ class MyApp extends StatelessWidget {
               Text(
                 'Ryu',
                 style: TextStyle(
-                  color: Colors.red[600],
-                  fontSize: 30.0,
+                  color: Colors.redAccent,
+                  fontSize: 29.0,
+                ),
+              ),
+              Text(
+                'CURRENT NINJA LEVEL',
+                style: TextStyle(
+                  color: Colors.grey,
+                ),
+              ),
+              Text(
+                '8',
+                style: TextStyle(
+                  color: Colors.redAccent,
+                  fontSize: 28.0,
                 ),
               ),
             ],
