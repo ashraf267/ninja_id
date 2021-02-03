@@ -23,7 +23,13 @@ class MyApp extends StatelessWidget {
                 child: CircleAvatar(
                   backgroundImage: AssetImage('images/ryu.png'),
                   radius: 65.0,
+                  // foregroundColor: Colors.grey[900],
                 ),
+              ),
+              Divider(
+                color: Colors.grey[800],
+                height: 55.0,
+                // thickness: 2.0,
               ),
             ],
           ),
