@@ -57,6 +57,21 @@ class MyApp extends StatelessWidget {
                   fontSize: 28.0,
                 ),
               ),
+              Row(
+                children: [
+                  Icon(
+                    Icons.mail,
+                    color: Colors.grey,
+                  ),
+                  // SizedBox(),
+                  Text(
+                    'ryu@streetfighter.ninja',
+                    style: TextStyle(
+                      color: Colors.grey,
+                    ),
+                  ),
+                ],
+              ),
             ],
           ),
         ),
