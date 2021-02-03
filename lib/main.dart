@@ -6,7 +6,17 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(),
+      home: Scaffold(
+        backgroundColor: Colors.grey[900],
+        appBar: AppBar(
+          title: Text(
+            'Ninja ID Card',
+            // style: TextStyle(),
+          ),
+          centerTitle: true,
+          backgroundColor: Colors.grey[850],
+        ),
+      ),
     );
   }
 }
