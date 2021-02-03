@@ -31,6 +31,19 @@ class MyApp extends StatelessWidget {
                 height: 55.0,
                 // thickness: 2.0,
               ),
+              Text(
+                'NAME',
+                style: TextStyle(
+                  color: Colors.grey,
+                ),
+              ),
+              Text(
+                'Ryu',
+                style: TextStyle(
+                  color: Colors.red[600],
+                  fontSize: 30.0,
+                ),
+              ),
             ],
           ),
         ),
